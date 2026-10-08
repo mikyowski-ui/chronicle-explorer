@@ -1,0 +1,3 @@
+Protected inputs: PASS — 2282/2282 unchanged; 0 modified, 0 missing, 0 errors
+Source inventory: PASS — 19 modified, 28 new, 0 deleted; 0 errors
+Receipts: apps/explorer/verification/dual-track/{protected-audit,source-changes}.json

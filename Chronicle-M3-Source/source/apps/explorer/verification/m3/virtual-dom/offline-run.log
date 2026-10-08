@@ -1,0 +1,102 @@
+{
+  "status": "PASS",
+  "build": "chronicle-78185328c2969b9946da16c06d07f1115015e6330a188f51d99cf2b9c79b6ce0",
+  "gates": {
+    "responsive375": {
+      "status": "PASS",
+      "classification": "actual stylesheet policy plus mocked375geometry; not rendered layout",
+      "policyReceipt": "layout-policy.json",
+      "pilots": [
+        {
+          "pilot": "Four Mexican urban centres",
+          "rows": 44,
+          "suppliedPanelGeometry": {
+            "x": 10,
+            "y": 172,
+            "width": 355,
+            "height": 414
+          },
+          "suppliedTimelineGeometry": {
+            "x": 0,
+            "y": 600,
+            "width": 375,
+            "height": 212
+          }
+        },
+        {
+          "pilot": "Premodern exchange accounts",
+          "rows": 10,
+          "suppliedPanelGeometry": {
+            "x": 10,
+            "y": 172,
+            "width": 355,
+            "height": 414
+          },
+          "suppliedTimelineGeometry": {
+            "x": 0,
+            "y": 600,
+            "width": 375,
+            "height": 212
+          }
+        }
+      ]
+    },
+    "interactiveSaveReopen": {
+      "status": "PASS",
+      "classification": "actual DOM controls/controller; simulated browser download/upload APIs",
+      "cycles": [
+        {
+          "pilot": "modern",
+          "status": "PASS",
+          "archiveIdentical": true,
+          "revisions": 2,
+          "selectedObservation": "hist-guadalajara-86f202e4:un-wup-2025:1975",
+          "cursorYear": 2000,
+          "views": [
+            "table",
+            "evidence"
+          ]
+        },
+        {
+          "pilot": "premodern",
+          "status": "PASS",
+          "archiveIdentical": true,
+          "revisions": 1,
+          "selectedObservation": "account-periplus-barygaza-first-century",
+          "cursorYear": -650,
+          "views": [
+            "summary",
+            "map",
+            "interval",
+            "table",
+            "evidence"
+          ]
+        }
+      ],
+      "invalidJSONRetainsPreviousResult": true
+    },
+    "original200Plus200": {
+      "status": "PASS",
+      "classification": "actual productionmeasure function with simulatedRAF and mockedAtlas host; not performance evidence",
+      "rawReceipt": "original-200-plus-200-simulated.json",
+      "selectionInteractions": 200,
+      "combinedInteractions": 200,
+      "retainedTargetsMs": [
+        50,
+        100
+      ],
+      "syntheticP95Ms": [
+        33.33333333333394,
+        35.33333333333394
+      ],
+      "rafCallbacks": 806,
+      "hostSeeks": 203,
+      "closeReopenCycles": 20,
+      "mountDisposeCycles": 20,
+      "coordinatedSelectionFailures": 0
+    }
+  },
+  "checks": 12,
+  "errors": [],
+  "receipt": "/workspace/scratch/28fda5f69d87/chronicle-workspace/Chronicle-Explorer/source/apps/explorer/verification/m3/virtual-offline/verification/m3/virtual-dom/acceptance.json"
+}

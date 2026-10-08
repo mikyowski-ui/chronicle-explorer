@@ -1,0 +1,47 @@
+✔ M3 application VM denies reviewed network capability probe (52.96005ms)
+✔ M3 application VM denies reviewed dom capability probe (34.489179ms)
+✔ M3 application VM denies reviewed environment capability probe (38.222029ms)
+✔ M3 application VM denies reviewed filesystem capability probe (38.5458ms)
+✔ M3 application VM denies reviewed processes capability probe (39.730116ms)
+✔ M3 application VM denies reviewed constructor-escape capability probe (41.021173ms)
+✔ M3 application VM denies reviewed prototype-pollution capability probe (42.669255ms)
+✔ M3 application VM denies reviewed unauthorized-call capability probe (42.632048ms)
+✔ M3 application infinite-loop terminates or rejects with EXECUTION_TIMEOUT (145.042577ms)
+✔ M3 application memory-flood terminates or rejects with MEMORY_LIMIT (109.254651ms)
+✔ M3 application output-flood terminates or rejects with OUTPUT_LIMIT (45.889335ms)
+✔ M3 application diagnostic-flood terminates or rejects with DIAGNOSTIC_LIMIT (35.84973ms)
+✔ M3 application malformed-output terminates or rejects with DUPLICATE_KEY (36.378909ms)
+✔ M3 application markup-output terminates or rejects with INVALID_SCHEMA (40.014626ms)
+✔ M3 application forged-output terminates or rejects with INVALID_SCHEMA (35.973595ms)
+✔ M3 application crash terminates or rejects with BOUNDARY_CRASH (38.508134ms)
+✔ M3 application partial-output terminates or rejects with INVALID_JSON (35.344962ms)
+✔ M3 application validates synthetic transform and retains reference-only receipt (38.39493ms)
+✔ M3 application cannot accept code, unknown fixture or caller budgets (0.411141ms)
+✔ M3 application rechecks rights and source binding after worker teardown (77.815461ms)
+✔ M3 application stale parent cannot activate a completed result (36.413263ms)
+✔ M3 application A-B-A latest input wins with one pending job (63.592777ms)
+✔ M3 application executes/cancels/disposes 20 times without residual worker capability (932.839605ms)
+✔ M3 retains disabled generated execution, models and immutable stricter policy (1.385681ms)
+✔ M3 parser rejects duplicate and escaped duplicate keys before construction (1.356218ms)
+✔ M3 parser rejects prototype pollution at every depth (0.426954ms)
+✔ M3 parser bounds bytes, depth, node count and finite values (9.643166ms)
+✔ M3 parser rejects malformed encoding, JSON and control characters (0.772894ms)
+✔ M3 rejects unauthorized calls, code, DOM and budget overrides (1.497377ms)
+✔ M3 requires current explicit per-field local transform grant (0.963692ms)
+✔ M3 rejects forged source rows even with an approved hash (1.242135ms)
+✔ M3 rejects stale parents and changed permissions at revalidation (1.479254ms)
+✔ M3 validates independently recomputed count, values and strict output schema (1.758764ms)
+✔ M3 rejects unit changes, duplicated records, injected source text and overlong identifiers (0.835841ms)
+✔ M3 native bootstrap either establishes every control or returns explicit unavailable (21.686658ms)
+✔ M3 missing runtime fails closed without substituting another engine (1.124722ms)
+✔ M3 latest-wins retains at most one pending job (9.748171ms)
+✔ M3 cancellation and disposal prevent launch or activation (9.124939ms)
+✔ M3 20 fail-closed/reclaim cycles leave no engine resources (117.283896ms)
+ℹ tests 39
+ℹ suites 0
+ℹ pass 39
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2175.444527

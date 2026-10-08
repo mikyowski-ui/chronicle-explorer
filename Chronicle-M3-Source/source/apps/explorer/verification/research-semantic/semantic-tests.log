@@ -1,0 +1,32 @@
+✔ semantic contracts parse source-backed 44-record modern pilot with unknown confidence (18.597121ms)
+✔ modern adapter rejects altered source bytes before semantic conversion (1.471ms)
+✔ strict Zod declarations reject executable fields and nested loaders (4.753098ms)
+✔ bounded input rejects huge, cyclic, unsafe and deeply nested data before validation (0.71225ms)
+✔ Zod import and object construction run with dynamic Function disabled (715.768602ms)
+✔ query compiler refuses unregistered indicators/entities/datasets and unverified geography (2.447811ms)
+✔ compiler normalizes entity order while preserving exact requested bounds (1.490698ms)
+✔ query execution honors temporal/bounding-box filtering without interpolation (4.033819ms)
+✔ specification rejects mismatched plan, duplicate views and unsupported independent queries (4.407802ms)
+✔ fixture references, indicator classes, source pins and bounds must agree (5.701497ms)
+✔ missing remains null, real zero remains zero, and neither acquires an uncertainty interval (7.366344ms)
+✔ attested/interpolated/modeled remain distinct and unsupported interpolation has no silent defaults (25.555415ms)
+✔ source confidence is separate from spatial uncertainty and never inferred from it (8.566745ms)
+✔ replay exports contain references/hashes only and deterministically reproduce results (31.800259ms)
+✔ replay fails closed on metadata-only changes and exact fixture-byte repins (14.802286ms)
+✔ joins default deny even for same pilot and same indicator (0.322669ms)
+✔ explicit normalizer also requires matching fixed geography, units, time and evidence (0.65334ms)
+✔ the same compiler/executor validates the 10 sparse premodern observations and 44 modern observations (22.081644ms)
+✔ premodern source lineage matches all ten original retained records, not a fabricated demonstration (2.027796ms)
+✔ sparse intervals overlap query bounds inclusively, but do not fill centuries between Samarkand records (2.442102ms)
+✔ event support and composition support remain separate and uncertainty does not become invented radii (0.455257ms)
+✔ BCE and year-zero support uses the host astronomical-year convention without date fabrication (1.456901ms)
+✔ population and account descriptions cannot join through a made-up normalizer (0.179405ms)
+✔ direct fabricated catalogue entries cannot bypass exact-byte registration (3.812548ms)
+ℹ tests 24
+ℹ suites 0
+ℹ pass 24
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1701.501446

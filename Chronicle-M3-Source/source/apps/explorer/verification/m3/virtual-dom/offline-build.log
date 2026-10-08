@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "out": "/workspace/scratch/28fda5f69d87/chronicle-workspace/Chronicle-Explorer/source/apps/explorer/verification/m3/virtual-offline",
+  "build": "chronicle-78185328c2969b9946da16c06d07f1115015e6330a188f51d99cf2b9c79b6ce0",
+  "runtimes": [
+    {
+      "path": "runtime/compiled-workspace.mjs",
+      "bytes": 1048257,
+      "sha256": "0bde59dbe80b9f4f3f29108fa598615c869cd2607f05df6772f39024dc6cdab8"
+    },
+    {
+      "path": "runtime/happy-dom-runtime.mjs",
+      "bytes": 2104463,
+      "sha256": "ae07cf7b6d5e081ae928123d930bf2d45d5336697d6358a24cf8c7c2e7505e2c"
+    },
+    {
+      "path": "runtime/postcss-runtime.cjs",
+      "bytes": 211622,
+      "sha256": "ba81eb79fbdab00bfc95efd83dc9a450bdd4bbe129e4f1d321fb07f56aaab63d"
+    }
+  ],
+  "dependencies": 11
+}

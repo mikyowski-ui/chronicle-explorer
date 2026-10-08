@@ -1,0 +1,3 @@
+(node:172) ExperimentalWarning: Transform Types is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+{"status":"PASS","output":"/workspace/scratch/28fda5f69d87/chronicle-workspace/Chronicle-Explorer/source/apps/explorer/verification/m3/runtime/application-acceptance.json","fixtures":19,"latestWins":true,"cycles":20,"cleanup":true,"maxima":{"wallMilliseconds":145.35852999999997,"terminationMilliseconds":6.453027999999904,"outputBytes":8192,"diagnosticBytes":2560}}

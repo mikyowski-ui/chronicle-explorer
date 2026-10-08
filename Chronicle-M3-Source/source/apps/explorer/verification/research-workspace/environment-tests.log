@@ -1,0 +1,23 @@
+✔ terrain base is painted before all fine tiles and never overpaints them (4.462194ms)
+✔ terrain replacement ignores stale image events and clears handlers before cancellation (1.258009ms)
+✔ large viewport requests a tile footprint that fits its fixed cache (1.37229ms)
+✔ dated place labels respect an explicit source minZoom (1.392084ms)
+✔ offscreen ancient anchors cannot exhaust the visible label budget at high zoom (1.502418ms)
+✔ major dated cities are intrinsic and visible at world zoom; stale references wait for detailed zoom (0.836403ms)
+✔ capital stars render and nearby labels find non-overlapping alternate positions (10.002575ms)
+✔ an inactive retained city is a hollow selected location, never an active city or capital marker (1.199568ms)
+✔ shared label collision reserves city text and marker bounds and clears them on the next frame (0.660962ms)
+✔ reduced-motion source changes complete animations without listener growth (3.699269ms)
+✔ existing city tween snaps its rendered radius to target on preference change and schedules no further tween (4.357467ms)
+✔ twenty style reloads restore through one owned listener and disposal removes it (1.652911ms)
+✔ new style intent supersedes pending old request and a late event after disposal cannot restore (0.86123ms)
+✔ style restore and replacement failures reject without leaking pending state (0.475411ms)
+✔ style reload timeout is bounded and clears the pending request (11.337842ms)
+ℹ tests 15
+ℹ suites 0
+ℹ pass 15
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 373.844186

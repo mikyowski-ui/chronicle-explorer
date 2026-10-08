@@ -1,0 +1,23 @@
+{
+  "status": "BLOCKED",
+  "build": "chronicle-78185328c2969b9946da16c06d07f1115015e6330a188f51d99cf2b9c79b6ce0",
+  "gates": {
+    "responsive375": {
+      "status": "BLOCKED",
+      "reason": "Chromium executable missing. Supply CHRONICLE_CHROMIUM_EXECUTABLE or provision the pinned Playwright browser before this offline test. No browser download was attempted by this runner."
+    },
+    "interactiveSaveReopen": {
+      "status": "BLOCKED",
+      "reason": "Chromium executable missing. Supply CHRONICLE_CHROMIUM_EXECUTABLE or provision the pinned Playwright browser before this offline test. No browser download was attempted by this runner."
+    },
+    "original200Plus200": {
+      "status": "BLOCKED",
+      "reason": "Chromium executable missing. Supply CHRONICLE_CHROMIUM_EXECUTABLE or provision the pinned Playwright browser before this offline test. No browser download was attempted by this runner."
+    }
+  },
+  "error": {
+    "name": "Error",
+    "message": "Chromium executable missing. Supply CHRONICLE_CHROMIUM_EXECUTABLE or provision the pinned Playwright browser before this offline test. No browser download was attempted by this runner."
+  },
+  "receipt": "/workspace/scratch/28fda5f69d87/chronicle-workspace/Chronicle-Explorer/source/apps/explorer/verification/m3/headless/acceptance.json"
+}

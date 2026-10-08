@@ -1,0 +1,35 @@
+✔ W1-03/12: all 44 pilot observations independently resolve to canonical pointers and original workbook cells (3121.495505ms)
+✔ W1-04/12: both prepared specifications use the same executor, with 44 and 8 actual rows and complete lineage (19.050196ms)
+✔ W1-06: inclusive windows retain actual endpoints while cursor references never borrow future observations (0.272482ms)
+✔ W1-06: astronomical BCE years match the existing navigation adapter; uncertain ranges overlap inclusively (0.544263ms)
+✔ W1-06/11: inverted, mismatched, fractional and nonfinite query windows fail closed (0.935405ms)
+✔ W1-07: explicit missing population remains null, zero remains a real zero, inconsistent conversions fail (5.066372ms)
+✔ W1-07: unknown units cannot enter a shared population chart (1.41497ms)
+✔ W1-07: ratios require observed compatible units, positive denominator and documented fixed geography (0.470872ms)
+✔ W1-07/11: duplicate entities, observation IDs, source pointers and joins cannot multiply output (6.336043ms)
+✔ W1-03/09: mismatched cells, missing entities, unsafe citations and source editions are rejected (6.38725ms)
+✔ W1-11: nested external loaders, executable fields, markup, unknown bindings and operations fail validation (1.636004ms)
+✔ W1-11: oversized and deeply nested inputs, cycles and excessive views are bounded before activation (1.12388ms)
+✔ W1-11: instruction-like data is inert and cannot alter the plan or permissions (4.357169ms)
+✔ W1-08: deliberately out-of-order cold completions install only the latest result (2.567243ms)
+✔ W1-08: A-B-A rapid reversal rejects both earlier completions even when A has the same specification (3.41852ms)
+✔ W1-09: malformed, empty, missing and over-budget inquiries preserve the complete last valid revision (4.0066ms)
+✔ W1-09: bounded cold timeout and late completion retain usable evidence and do not commit (13.760191ms)
+✔ W1-05/06/10: chart/map actions share stable evidence; filtering retains hidden selection and rejects stale actions (5.171782ms)
+✔ W1-10/14: warm cursor/selection does not load; 24 replace-close cycles release subscriptions and cached records on disposal (40.243245ms)
+✔ W1-10: disposal while a loader ignores cancellation prevents late notifications and commits (0.717575ms)
+✔ W1-03/10: active bundles, observations, locators and evidence are recursively immutable (3.792757ms)
+✔ W1-13: replay is deterministic, references-only, cached and requires no model/network dependency (7.678153ms)
+✔ W1-13: missing or changed pinned data and forged dependencies cannot silently replay a newer edition (25.799068ms)
+✔ W1-13/09: failed replay does not replace active evidence, and unapproved export fields fail strict validation (5.971762ms)
+✔ W1-13: replay exports normalized host text without retaining user-supplied secrets or instructions (7.869422ms)
+✔ W1-03/06/07: the pinned UN estimate descriptor cannot launder synthetic modeled or uncertain dates (5.792049ms)
+✔ W1-08/09/13: changed registry metadata cannot reuse warm data or corrupt the prior pinned evidence (6.672221ms)
+ℹ tests 27
+ℹ suites 0
+ℹ pass 27
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3464.851249

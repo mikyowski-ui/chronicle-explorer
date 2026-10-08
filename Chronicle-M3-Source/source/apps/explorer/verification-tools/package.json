@@ -1,0 +1,11 @@
+{
+  "name": "@chronicle/offline-verification-tools",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.19.0",
+  "description": "Pinned virtual DOM dependency for offline Chronicle acceptance automation; not part of the application runtime.",
+  "dependencies": {
+    "happy-dom": "20.14.5"
+  }
+}
